@@ -29,7 +29,7 @@ export class CourseComponent implements OnInit {
   lessons: Lesson[];
 
   constructor(private route: ActivatedRoute) {
-
+    console.log('called in a constructor');
 
   }
 
