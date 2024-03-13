@@ -30,7 +30,6 @@ export class CourseComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) {
     console.log('called in a constructor');
-
   }
 
   ngOnInit() {
